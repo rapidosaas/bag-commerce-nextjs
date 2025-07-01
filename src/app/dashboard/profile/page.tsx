@@ -116,7 +116,7 @@ export default function ProfileForm() {
       <div className="space-y-5 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">Profile</h1>
         <p className="text-muted-foreground">
-          Get your profile seen by thousands of companies.
+          Get your profile seen by thousands of customers.
         </p>
       </div>
       <div className="space-y-6 rounded-lg border p-4">
