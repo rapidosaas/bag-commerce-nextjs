@@ -6,10 +6,10 @@ export default function Footer() {
       <div className="mx-auto max-w-5xl space-y-5 px-3 py-5">
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
           <div className="flex flex-wrap gap-5 text-sm text-muted-foreground">
-              Find your next cabas businessman and more
+              Find your next cabas
           </div>
           <div className="flex flex-wrap gap-5 text-sm text-muted-foreground">
-            <Link href="https://www.facebook.com/CodeurGrosArgent" target="_blank" className="hover:underline">
+            <Link href="https://www.facebook.com/rapidosaas" target="_blank" className="hover:underline">
               Facebook
             </Link>
             <Link href="https://github.com/rapidosaas" target="_blank" className="hover:underline">

@@ -8,22 +8,28 @@ function Hero () {
         <div className="mx-auto max-w-2xl py-20 sm:py-32 lg:py-40">
           <div className="text-center">
             <h1 className="text-balance text-xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
-              Find The Right 
+              Find the Right 
               {' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-600">
-                Cabas
+                Micro-Importer
               </span>{' '}
-              And More
+              or Post your Needs
             </h1>
             <p className="mt-8 text-pretty text-lg font-medium text-gray-700 sm:text-xl/8">
                 CabasBusiness is a platform designed to connect micro-importers with customers searching for particular products.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                href="/bags"
+                href="/u"
                 className={`${buttonVariants({ variant: "default" })}`}
               >
-                Find a Cabas
+                Find an Importer
+              </Link>
+              <Link
+                href="/needs"
+                className={`${buttonVariants({ variant: "outline" })}`}
+              >
+                Find customers
               </Link>
             </div>
           </div>

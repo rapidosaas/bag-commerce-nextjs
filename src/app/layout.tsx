@@ -10,6 +10,8 @@ import { Suspense } from "react";
 
 import PlausibleProvider from "next-plausible";
 
+import { Toaster } from "@/components/ui/sonner"
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -45,6 +47,18 @@ export default function RootLayout({
             </Suspense>
           <Footer />
         </AuthProvider>
+        <Toaster
+          position="top-right"
+          richColors
+          closeButton
+          duration={5000}
+          toastOptions={{
+            className: "bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100",
+            style: {
+              fontFamily: "var(--font-geist-sans)",
+            },
+          }}
+        />
       </body>
     </html>
   );
